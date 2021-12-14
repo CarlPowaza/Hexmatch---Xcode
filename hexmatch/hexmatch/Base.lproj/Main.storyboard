@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="hexmatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="7XQ-ao-zOV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BG6-L2-p1N">
+                                <rect key="frame" x="20" y="115" width="150" height="150"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="QyJ-3u-bnL"/>
+                                    <constraint firstAttribute="width" constant="150" id="bJW-XZ-ypE"/>
+                                </constraints>
+                                <state key="normal" image="base"/>
+                                <connections>
+                                    <action selector="h1Touch:" destination="BYZ-38-t0r" eventType="touchDown" id="ZNS-dL-TEC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YgV-xZ-U10">
+                                <rect key="frame" x="244" y="115" width="150" height="150"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" image="base"/>
+                                <connections>
+                                    <action selector="h2Touch:" destination="BYZ-38-t0r" eventType="touchDown" id="hlR-c1-8R3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSl-Fa-jzT">
+                                <rect key="frame" x="20" y="306" width="150" height="150"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="yNq-wq-PFa"/>
+                                </constraints>
+                                <state key="normal" image="base"/>
+                                <connections>
+                                    <action selector="h3Touch:" destination="BYZ-38-t0r" eventType="touchDown" id="knJ-tC-RcN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bju-Y6-jGI">
+                                <rect key="frame" x="244" y="306" width="150" height="150"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" image="base"/>
+                                <connections>
+                                    <action selector="h4Touch:" destination="BYZ-38-t0r" eventType="touchDown" id="aJF-oS-zaq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Rh-6b-j8n">
+                                <rect key="frame" x="20" y="506" width="150" height="150"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" image="base"/>
+                                <connections>
+                                    <action selector="h5Touch:" destination="BYZ-38-t0r" eventType="touchDown" id="8Um-4J-U4O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BY4-dR-YjI">
+                                <rect key="frame" x="244" y="506" width="150" height="150"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" image="base"/>
+                                <connections>
+                                    <action selector="h6Touch:" destination="BYZ-38-t0r" eventType="touchDown" id="qyY-Nc-Fhd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hexmatch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03I-ae-JCZ">
+                                <rect key="frame" x="124" y="51" width="236" height="44"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="40"/>
+                                <color key="textColor" red="1" green="0.43331256394330786" blue="0.079676922381985538" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcs-Kj-VFS">
+                                <rect key="frame" x="63" y="691" width="288" height="132"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <state key="normal" title="RESET">
+                                    <color key="titleColor" red="1" green="0.4333125639" blue="0.079676922380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchDown" id="iJp-nn-gHD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7XQ-ao-zOV" secondAttribute="trailing" id="1AJ-wC-cXz"/>
+                            <constraint firstItem="BG6-L2-p1N" firstAttribute="trailing" secondItem="fSl-Fa-jzT" secondAttribute="trailing" id="1uQ-Z9-hHo"/>
+                            <constraint firstItem="fSl-Fa-jzT" firstAttribute="top" secondItem="Bju-Y6-jGI" secondAttribute="top" id="35g-yP-R1H"/>
+                            <constraint firstItem="BG6-L2-p1N" firstAttribute="top" secondItem="03I-ae-JCZ" secondAttribute="bottom" constant="20" id="3Mx-mk-oZt"/>
+                            <constraint firstItem="fSl-Fa-jzT" firstAttribute="top" secondItem="BG6-L2-p1N" secondAttribute="bottom" constant="41" id="A9w-Fd-1E3"/>
+                            <constraint firstItem="03I-ae-JCZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="7" id="AnV-de-mFQ"/>
+                            <constraint firstItem="BG6-L2-p1N" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="H2N-ye-rQa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0Rh-6b-j8n" secondAttribute="bottom" constant="206" id="Jeq-HR-dER"/>
+                            <constraint firstItem="03I-ae-JCZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="124" id="M13-qH-ykv"/>
+                            <constraint firstItem="0Rh-6b-j8n" firstAttribute="top" secondItem="fSl-Fa-jzT" secondAttribute="bottom" constant="50" id="NZb-Md-DfF"/>
+                            <constraint firstAttribute="bottom" secondItem="7XQ-ao-zOV" secondAttribute="bottom" id="Oin-ZM-Ljz"/>
+                            <constraint firstItem="BG6-L2-p1N" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="71" id="Q31-wG-HqE"/>
+                            <constraint firstItem="0Rh-6b-j8n" firstAttribute="bottom" secondItem="BY4-dR-YjI" secondAttribute="bottom" id="RMv-Gh-AaH"/>
+                            <constraint firstItem="Bju-Y6-jGI" firstAttribute="leading" secondItem="BY4-dR-YjI" secondAttribute="leading" id="THL-qB-RDq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="03I-ae-JCZ" secondAttribute="trailing" constant="54" id="Tbr-3y-HYs"/>
+                            <constraint firstItem="YgV-xZ-U10" firstAttribute="leading" secondItem="Bju-Y6-jGI" secondAttribute="leading" id="V11-ML-RZ9"/>
+                            <constraint firstItem="fSl-Fa-jzT" firstAttribute="leading" secondItem="0Rh-6b-j8n" secondAttribute="leading" id="Vcb-2C-StP"/>
+                            <constraint firstItem="YgV-xZ-U10" firstAttribute="leading" secondItem="BG6-L2-p1N" secondAttribute="trailing" constant="74" id="Zz4-dx-5TE"/>
+                            <constraint firstItem="YgV-xZ-U10" firstAttribute="trailing" secondItem="Bju-Y6-jGI" secondAttribute="trailing" id="aDa-sY-Isa"/>
+                            <constraint firstItem="7XQ-ao-zOV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="aw2-PK-lIP"/>
+                            <constraint firstItem="YgV-xZ-U10" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="czA-sD-wUC"/>
+                            <constraint firstItem="0Rh-6b-j8n" firstAttribute="top" secondItem="BY4-dR-YjI" secondAttribute="top" id="ds1-Pr-NXN"/>
+                            <constraint firstItem="Bju-Y6-jGI" firstAttribute="trailing" secondItem="BY4-dR-YjI" secondAttribute="trailing" id="ipB-zy-QTj"/>
+                            <constraint firstItem="BG6-L2-p1N" firstAttribute="top" secondItem="YgV-xZ-U10" secondAttribute="top" id="jV0-Oa-afP"/>
+                            <constraint firstItem="7XQ-ao-zOV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ntY-5C-rR5"/>
+                            <constraint firstItem="BG6-L2-p1N" firstAttribute="leading" secondItem="fSl-Fa-jzT" secondAttribute="leading" id="r6F-Bh-sBA"/>
+                            <constraint firstItem="BG6-L2-p1N" firstAttribute="bottom" secondItem="YgV-xZ-U10" secondAttribute="bottom" id="rDN-Al-3rC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bcs-Kj-VFS" secondAttribute="bottom" constant="99" id="sW1-gp-hhn"/>
+                            <constraint firstItem="fSl-Fa-jzT" firstAttribute="bottom" secondItem="Bju-Y6-jGI" secondAttribute="bottom" id="tOW-ct-Gcm"/>
+                            <constraint firstItem="fSl-Fa-jzT" firstAttribute="trailing" secondItem="0Rh-6b-j8n" secondAttribute="trailing" id="tx0-en-oPY"/>
+                            <constraint firstItem="bcs-Kj-VFS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xet-ap-Mxi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="hex1" destination="BG6-L2-p1N" id="Urq-YM-wFq"/>
+                        <outlet property="hex2" destination="YgV-xZ-U10" id="zJD-vU-tcg"/>
+                        <outlet property="hex3" destination="fSl-Fa-jzT" id="h8k-Ik-p1o"/>
+                        <outlet property="hex4" destination="Bju-Y6-jGI" id="WKd-hc-h5B"/>
+                        <outlet property="hex5" destination="0Rh-6b-j8n" id="A9H-nz-foC"/>
+                        <outlet property="hex6" destination="BY4-dR-YjI" id="WJ2-bx-GWf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="1080" height="1920"/>
+        <image name="base" width="214" height="186"/>
+    </resources>
+</document>
